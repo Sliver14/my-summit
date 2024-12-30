@@ -1,0 +1,25 @@
+{
+
+  "development": {
+    "username": "root",
+    "password": "HealingStreams@14",
+    "database": "16th_summit_registration",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "hurqsoqwazSiLZvGafVyhjRuWFzUEqvq",
+    "database": "railway",
+    "host": "mysql.railway.internal",
+    "dialect": "mysql"
+    
+  }
+}
