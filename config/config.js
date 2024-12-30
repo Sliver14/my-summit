@@ -1,4 +1,4 @@
-{
+module.exports = {
 
   "development": {
     "username": "root",
@@ -15,10 +15,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "hurqsoqwazSiLZvGafVyhjRuWFzUEqvq",
-    "database": "railway",
-    "host": "mysql.railway.internal",
+    "username": process.env.DATABASE_USER,
+    "password": process.env.DATABASE_PASSWORD,
+    "database": process.env.DATABASE_NAME,
+    "host": process.env.DATABASE_HOST,
+    "port": process.env.DATABASE_PORT,
     "dialect": "mysql"
     
   }
